@@ -25,6 +25,6 @@ if(id == null){
     const usuariosAtualizados = [...usuarios, dados];
     localStorage.setItem('usuarios', JSON.stringify(usuariosAtualizados));
 
-    window.location.href = '../views/listar.html';
+    window.location.href = '../crud-javascript/views/listar.html';
   })
 }

@@ -7,7 +7,7 @@ function criaNovaLinha(nome, email, id, senha){
     <td class="email">${email}</td>
     <td>
         <ul class="tabela__botoes-controle">
-            <li><a href="../views/index.html?id=${id}" class="botao-simples botao-simples--editar">Editar</a></li>
+            <li><a href="/index.html?id=${id}" class="botao-simples botao-simples--editar">Editar</a></li>
             <li><button class="botao-simples botao-simples--excluir" type="button">Excluir</button></li>
         </ul>
     </td>

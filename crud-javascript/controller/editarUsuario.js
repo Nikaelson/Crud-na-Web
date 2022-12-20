@@ -21,6 +21,6 @@ if(id != null){
     
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
-    window.location.href = '../views/listar.html';
+    window.location.href = '../crud-javascript/views/listar.html';
   });
 }
