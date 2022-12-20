@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/componentes/botao.css">
+  <link rel="stylesheet" href="./css/componentes/cabecalho.css">
+  <link rel="stylesheet" href="./css/componentes/cartao.css">
+  <link rel="stylesheet" href="./css/componentes/inputs.css">
+  <link rel="stylesheet" href="./css/componentes/tabela.css">
+  <link rel="stylesheet" href="./css/componentes/filtro.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <title>Crud - na Web</title>
+</head>
+<body>
+    <header>
+        <h1>How can I help you?</h1>
+        <div class="input-wrapper">
+            <label for="filtro" class="sr-only">Filtro</label>
+            <input id="filtro" type="text" placeholder="Filtro">
+            <i class="ph-magnifying-glass"></i>
+        </div>
+    </header>
+    <main class="clientes-container">
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th class="tabela__coluna--p">Nome</th>
+                <th class="tabela__coluna--p">Senha</th>
+                <th class="tabela__coluna--g">Email</th>
+                <th class="tabela__coluna--m tabela__alinhamento--direita"><a href="./index.html" class="botao-simples botao-simples--adicionar">Novo Cadastro</a></th>
+            </tr>
+        </thead>
+        <tbody data-tabela>
+            
+        </tbody>
+    </table>
+    </main>
+<script src="../controller/listarUsuarios.js"></script>
+<script src="../controller/deletarUsuario.js"></script>
+<script src="../controller/filtro/filtro.js"></script>
+</body>
+</html>
