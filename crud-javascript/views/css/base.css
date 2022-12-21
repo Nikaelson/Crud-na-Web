@@ -1,5 +1,5 @@
-@import url(_reset.css);
-@import url(_variaveis.css);
+@import url(./reset.css);
+@import url(./variaveis.css);
 
 body {
 	background-color: var(--cor-secundaria);
@@ -8,7 +8,7 @@ body {
 	overflow-x: hidden;
 }
 
-.container { 
+.container {
 	padding-right: 1rem;
 	padding-left: 1rem;
 }
@@ -27,9 +27,9 @@ body {
 }
 
 @media(min-width: 800px) {
-  .container {
+	.container {
 		padding-right: 2.5rem;
-		padding-left: 2.5rem;	
+		padding-left: 2.5rem;
 	}
 }
 
