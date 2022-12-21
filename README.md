@@ -14,4 +14,4 @@ Opção de filtrar os usuários cadastrados pelo nome e pelo email automaticamen
 Adicionar a lógica de login - logout
 
 ### Para rodar o projeto
-Depois de ter o projeto na sua maquina basta apenas ter um servidor instalado ccomo a live-server
+Depois de ter o projeto na sua máquina basta apenas ter um servidor instalado como o live-server
